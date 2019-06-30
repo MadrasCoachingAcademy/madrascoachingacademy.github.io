@@ -2,7 +2,7 @@
   "use strict"; // Start of use strict
 
   // Smooth scrolling using jQuery easing
-  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+  /* $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
@@ -13,7 +13,7 @@
         return false;
       }
     }
-  });
+  }); */
 
   // Scroll to top button appear
   $(document).scroll(function() {
@@ -31,10 +31,10 @@
   });
 
   // Activate scrollspy to add active class to navbar items on scroll
-  $('body').scrollspy({
+  /* $('body').scrollspy({
     target: '#mainNav',
     offset: 80
-  });
+  }); */
 
   // Collapse Navbar
   var navbarCollapse = function() {
@@ -45,9 +45,9 @@
     }
   };
   // Collapse now if page is not at top
-  navbarCollapse();
+  //navbarCollapse();
   // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
+  //$(window).scroll(navbarCollapse);
 
   // Floating label headings for the contact form
   $(function() {
